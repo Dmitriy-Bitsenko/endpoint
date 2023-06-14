@@ -8,12 +8,12 @@
     <h2>Forms for data</h2>
     <form method="post" action="index.html/">
         {% csrf_token %}
-        <p>Filename:<br> <input name="filename" /></p>
-        <input type="submit" value="Send" />
+        <p>Filename:<br> <input type="file" /></p>
         <br>
-        <p>Result:<br> <input name="result"  /></p>
+    </form>
+    <form method="get" action="index.html/">
+        <p>Result:<br></p>
         <input type="submit" value="Request" />
 
-    </form>
 </body>
 </html>

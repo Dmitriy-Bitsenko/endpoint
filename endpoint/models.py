@@ -5,3 +5,4 @@ from django.db import models
 
 class File(models.Model):
     name = models.FileField(default='file')
+
